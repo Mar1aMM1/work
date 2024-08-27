@@ -4,3 +4,32 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+
+
+header{
+    background-color:#FB3F5C ;
+}
+
+.header{
+    max-width: 1443px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav a{
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.74px;
+    text-align: left;
+    color:#F8EEEF ;
+}
+
+.nav{
+    display: flex;
+    gap: 52px;
+}
