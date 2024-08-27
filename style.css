@@ -11,6 +11,7 @@ header{
 }
 
 .header{
+    margin: 0 auto;
     max-width: 1443px;
     height: 100px;
     display: flex;
@@ -32,4 +33,90 @@ header{
 .nav{
     display: flex;
     gap: 52px;
+}
+
+section{
+    max-width:1442px;
+    height: 720px; 
+}
+.section{
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: row;
+    gap: 283px;
+
+}
+
+.photo{
+    width: 456.71px;
+    height: 541px;
+    top: 191px;
+    left: 873.29px;
+    gap: 0px;
+    border-radius: 20px 20px 20px 20px;
+    opacity: 0px;
+    margin-left: 50px;
+    margin-top: 100px;
+
+}
+
+.text{
+    width: 480px;
+    height: 313px;
+    top: 292px;
+    left: 110px;
+    gap: 10px;
+    border-radius: 18px 18px 18px 18px;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
+
+h1{
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38.19px;
+    text-align: left;
+    color:#000000 ;
+}
+
+h2{
+    font-family: Nunito;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 68.2px;
+    text-align: left;
+
+}
+.text span{
+    font-family: Nunito;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 68.2px;
+    text-align: left;
+    color:#FB3F5C ;
+
+}
+
+.text p{
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.74px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    margin-bottom: 20px;
+
+
+}
+
+button{
+    width: 235.75px;
+    height:  65px;
+    padding: 19px 57px 19px 57px;
+    border-radius: 18px 18px 18px 18px;
+    background-color: #FB3F5C;
+    color: #F8EEEF;
+
 }
